@@ -1,0 +1,39 @@
+.main__title{
+    font-size: 1.5rem;
+    padding: 10px 0 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .accordion-header {
+    background-color: #ccc;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    padding: 1rem;
+    display: none;
+  }
+
+  .accordion-content ul{
+    list-style: none;
+  }
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
